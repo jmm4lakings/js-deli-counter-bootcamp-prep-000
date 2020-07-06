@@ -1,7 +1,7 @@
-var katzDeli = [];
+var katzDeliLine = [];
 
-function currentLine(Line){
-  if(!line.length) {
-    return "The line is currently empty.";
-  }
-var lineNamesandNumbers = [];
+function takeANumber(katzDeliLine, name) {
+  katzDeliLine.push(name)
+  return "Welcome," + name + ". You are number " + katzDeliLine.length + "in line."
+}
+
